@@ -1,4 +1,4 @@
-import { Facebook, Twitter, LinkedIn, Instagram } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               <Facebook className="h-6 w-6 cursor-pointer" />
               <Twitter className="h-6 w-6 cursor-pointer" />
-              <LinkedIn className="h-6 w-6 cursor-pointer" />
+              <Linkedin className="h-6 w-6 cursor-pointer" />
               <Instagram className="h-6 w-6 cursor-pointer" />
             </div>
           </div>
