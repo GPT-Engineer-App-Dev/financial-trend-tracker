@@ -4,7 +4,7 @@
  
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 43 100% 95%; /* Updated to match FT's background color */
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
