@@ -1,12 +1,17 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex-grow flex justify-center items-center">
-      <div className="text-center">
-        <h1 className="text-3xl">Your Blank Canvas</h1>
-        <p>Chat with the agent to start making edits.</p>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <div className="flex-grow flex flex-col md:flex-row">
+        <MainContent />
+        <Sidebar />
       </div>
+      <Footer />
     </div>
   );
 };
